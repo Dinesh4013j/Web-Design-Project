@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: auto;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background-color: orange;
+
+}
+
+header,nav,main,footer{
+
+    display: grid;
+    place-content: center;  
+
+ 
+}
+header{
+    position: sticky;
+    top:0;
+    height: 15vh;
+    background-color: blue;
+    color:aquamarine;
+    z-index: 1;
+    
+}
+a{
+    color:white;
+}
+a:hover{
+    color:yellow;
+}
+h1{
+    font-size: 2.5rem;
+}
+footer{
+    bottom: 0;
+}
+
+h2{
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(70, 43, 226);
+}
+nav{
+   background-color: rgba(203, 44, 235, 0.13);
+    height: 5vh;
+    display: flex;
+    flex-wrap: nowrap;
+    position: sticky;
+    z-index: 1;
+    color:white;
+    font-size: 2rem;
+    padding: 0.5em;
+    align-items: center;
+}
+ul{
+    color: aliceblue;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+
+}
+#menu{
+    margin: 1em;
+    flex-basis: 90%;
+    max-height: 95vh;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    background-color: gray;
+}
+#contact{
+    margin: 1em;
+    flex-basis: 90%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: gray;
+    
+}
+#about{
+    margin: 1em;
+    flex-basis: 90%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: gray;
+
+    
+
+}
+#location{
+    margin: 1em;
+    flex-basis: 90%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: gray;
+
+}
+.ta{
+    border: 2px solid green;
+    margin:0.5em;
+    font-size: 2rem;
+    color:blue;
+    background-color: antiquewhite;
+}   
+td{
+    border: 2px solid rgb(13, 184, 13);
+    
+    text-align: center;
+}
+th{
+    border: 2px solid green;
+}
+img{
+
+    border: 2px solid yellow;
+    align-items: center;
+    margin-left: 30%;;
+
+
+    height: 60%;
+    width: 50%;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+}
+legend{
+    font-size: 2.5rem;
+    color: red;
+}
+p{
+    text-align: center;
+    font-size: 2.5rem;
+    color: green;
+}
+figcaption{
+    text-align: center;
+    font-size: 2.5rem;
+}
+button{
+
+    justify-content: center;
+    font-size: 2.5rem;
+    color: blue;
+    align-items: center;
+}
+.foot{
+    position: sticky;
+    bottom: 0;
+    background-color: blue;
+    color:rgb(0, 3, 2);
+    min-height: 55%;
+
+}
+
